@@ -1,0 +1,32 @@
+{
+  "snapshot_block_hex": "0x2fcc5fc",
+  "snapshot_block_dec": 50120188,
+  "chain": "Base mainnet (chainId 8453)",
+  "target_0xCF205808": {
+    "owner": "0x0000000000000000000000000000000000000000",
+    "owner_note": "zero address = ownership renounced 2024-09-07",
+    "protocolFeeDestination": "0x831be9e08185eba7d88aab1efc059336babef430",
+    "protocolFeePercent_raw": 0,
+    "protocolFeePercent_pct": 0.0,
+    "subjectFeePercent_raw": 50000000000000000,
+    "subjectFeePercent_pct": 5.0,
+    "native_ETH_balance_wei": 913582089280115662539,
+    "native_ETH_balance": 913.5820892801157
+  },
+  "feeDestination_safe_0x831be9": {
+    "native_ETH_balance_wei": 14816665625000000000,
+    "native_ETH_balance": 14.816665624999999,
+    "threshold": 2,
+    "nonce": 39,
+    "owners": [
+      "0x68d499502055ab7d4927694d971de985342f40ce",
+      "0xdd9176ea3e7559d6b68b537ef555d3e89403f742",
+      "0xddc4f58f22166a88b9976c417046bb10d56000e3"
+    ],
+    "modules": "none (getModulesPaginated -> empty, next=SENTINEL)",
+    "guard": "none (0x0)",
+    "singleton_masterCopy": "0xfb1bffc9d739b8d520daf37df666da4c687191ea",
+    "fallbackHandler": "0x017062a1de2fe6b99be3d9d37841fed19f573804",
+    "version": "1.3.0 (GnosisSafeL2)"
+  }
+}

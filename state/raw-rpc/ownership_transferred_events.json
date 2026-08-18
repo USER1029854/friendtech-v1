@@ -1,0 +1,26 @@
+{
+  "message": "OK",
+  "ownership_transfers": [
+    {
+      "block": "0x2515e8",
+      "tx": "0xa7eba644182d78c4568364e00b0320a9fde9c1fe779cdbec6941fb7443d14c01",
+      "prevOwner": "0x0000000000000000000000000000000000000000",
+      "newOwner": "0xdd9176ea3e7559d6b68b537ef555d3e89403f742",
+      "time": "0x64d488b3"
+    },
+    {
+      "block": "0x709b95",
+      "tx": "0x2e3898b0ba0ca32334e03b56caec48c601756f035313bed628bab7b2d6677b76",
+      "prevOwner": "0xdd9176ea3e7559d6b68b537ef555d3e89403f742",
+      "newOwner": "0x831be9e08185eba7d88aab1efc059336babef430",
+      "time": "0x656b940d"
+    },
+    {
+      "block": "0x1294985",
+      "tx": "0xfd06b08beb7b89c1e8d52dbc2f08080c38fec8a9d2fe0d72e62a6178a29347bd",
+      "prevOwner": "0x831be9e08185eba7d88aab1efc059336babef430",
+      "newOwner": "0x0000000000000000000000000000000000000000",
+      "time": "0x66dcefed"
+    }
+  ]
+}

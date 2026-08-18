@@ -1,0 +1,11 @@
+{
+  "ContractName": "FriendtechSharesV1",
+  "CompilerVersion": "v0.8.18+commit.87f61d96",
+  "OptimizationUsed": "0",
+  "Runs": "200",
+  "EVMVersion": "Default",
+  "LicenseType": "None",
+  "Proxy": "0",
+  "Implementation": "",
+  "ConstructorArguments": ""
+}

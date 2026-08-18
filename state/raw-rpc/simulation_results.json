@@ -1,0 +1,12 @@
+{
+  "note": "eth_call simulations from unprivileged address 0x1111...1111 at latest state",
+  "onlyOwner_setters_all_revert": {
+    "setFeeDestination(address)":   {"selector":"0xfbe53234","result":"revert: 'Ownable: caller is not the owner'"},
+    "setProtocolFeePercent(uint256)":{"selector":"0xa4983421","result":"revert: 'Ownable: caller is not the owner'"},
+    "setSubjectFeePercent(uint256)": {"selector":"0x5a8a764e","result":"revert: 'Ownable: caller is not the owner'"}
+  },
+  "permissionless_trade": {
+    "buyShares(self,1) value=0 from 0x1111": {"selector":"0x6945b123","result":"success (0x) - first share of a fresh subject costs 0 wei; no signature/whitelist/backend gate on-chain"}
+  },
+  "interpretation": "owner()==0x0 (renounced) + setters revert for everyone => fee params & fee destination are permanently frozen. Trade entrypoints are open to any address."
+}
